@@ -27,7 +27,7 @@ print "ou \n";
 if ($quantidade_galao2 >= 5) {
 
     $quantidade_lata2 = ceil($quantidade_galao2/5);
-    $quantidade_galao2 = ceil(qQuantidade_galao2%5);
+    $quantidade_galao2 = ceil(quantidade_galao2%5);
 }
       $total_a_pagar = ($quantidade_galao2*25)+($quantidade_lata2*80);
 
